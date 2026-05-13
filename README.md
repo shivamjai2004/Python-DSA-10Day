@@ -9,7 +9,7 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 | Day | Topics Covered |
 |-----|---------------|
 | Day 1 | Python Basics — Data Types, Type Casting, Collections, Conditions, Loops, Membership Operators, Practice Problems |
-| Day 2 | *(coming soon)* |
+| Day 2 | Strings, Tuples, Dictionaries, Practice Problems |
 | Day 3 | *(coming soon)* |
 | Day 4 | *(coming soon)* |
 | Day 5 | *(coming soon)* |
@@ -35,6 +35,17 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 
 ---
 
+## Day 2 — Strings, Tuples & Dictionaries
+
+### Topics
+
+- **Strings** (`string.py`) — String methods: `lower()`, `upper()`, `title()`, `swapcase()`, `capitalize()`; f-strings and `format()`; string reversal; validation methods: `isalnum()`, `isalpha()`, `isspace()`, `islower()`, `isupper()`, `isdigit()`; `startswith()`, `endswith()`, `find()`, `index()`, `count()`
+- **Tuples** (`tuple.py`) — Tuple creation and immutability, `len()`, `type()`, `id()`; tuple concatenation and repetition; nested tuples; slicing; difference between string and tuple repetition
+- **Dictionaries** (`dict.py`) — Creating dictionaries, accessing by key, iterating keys/values/items; updating and adding entries; `pop()`; using tuples as keys; `copy()` vs aliasing; sorting by keys; identity comparison with `id()`; memory management with `del`
+- **Practice Problems** (`problems.py`) — Remove duplicates from string, reverse a string, palindrome check, count vowels and consonants, anagram check, count special symbols and whitespaces, title case a sentence, printing patterns (square, triangle, pyramid, alphabet), product of array except self, find max/min key in dictionary, frequency count using dict, reverse a number, currency denomination breakdown
+
+---
+
 ## How to Run
 
 Make sure Python 3 is installed:
@@ -46,6 +57,7 @@ python --version
 Run any file like this:
 
 ```bash
+# Day 1
 python Day_1/dataType.py
 python Day_1/Casting1.py
 python Day_1/Collections.py
@@ -53,6 +65,12 @@ python Day_1/Conditions.py
 python Day_1/Iteration.py
 python Day_1/Membership.py
 python Day_1/Problems.py
+
+# Day 2
+python Day_2/string.py
+python Day_2/tuple.py
+python Day_2/dict.py
+python Day_2/problems.py
 ```
 
 ---
