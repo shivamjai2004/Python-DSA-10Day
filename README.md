@@ -10,7 +10,7 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 |-----|---------------|
 | Day 1 | Python Basics — Data Types, Type Casting, Collections, Conditions, Loops, Membership Operators, Practice Problems |
 | Day 2 | Strings, Tuples, Dictionaries, Practice Problems |
-| Day 3 | *(coming soon)* |
+| Day 3 | DSA Intro & Time Complexity, Functions, Practice Problems |
 | Day 4 | *(coming soon)* |
 | Day 5 | *(coming soon)* |
 | Day 6 | *(coming soon)* |
@@ -46,6 +46,16 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 
 ---
 
+## Day 3 — DSA Introduction, Functions & Problem Solving
+
+### Topics
+
+- **DSA Intro & Time Complexity** (`DSA/first.py`) — What are Data Structures; Big-O notation: O(1) Constant, O(logN) Logarithmic, O(N) Linear, O(N²) Quadratic, O(2^N) Exponential; finding maximum element in array, linear search, row-wise maximum in a 2D grid, string manipulation with character filtering, run-length encoding concept
+- **Functions** (`function.py`) — While loop; defining and calling functions; returning multiple values as tuple; types of arguments: positional, keyword, default, variable-length (`*args`); modular approach — building a menu-driven calculator with separate functions for add, subtract, multiply, divide
+- **Practice Problems** (`Problems.py`) — Maximum consecutive 1s in an array, counting occurrences of a substring using sliding window
+
+---
+
 ## How to Run
 
 Make sure Python 3 is installed:
@@ -71,6 +81,11 @@ python Day_2/string.py
 python Day_2/tuple.py
 python Day_2/dict.py
 python Day_2/problems.py
+
+# Day 3
+python Day_3/DSA/first.py
+python Day_3/function.py
+python Day_3/Problems.py
 ```
 
 ---
