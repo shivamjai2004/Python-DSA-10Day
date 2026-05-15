@@ -11,7 +11,7 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 | Day 1 | Python Basics — Data Types, Type Casting, Collections, Conditions, Loops, Membership Operators, Practice Problems |
 | Day 2 | Strings, Tuples, Dictionaries, Practice Problems |
 | Day 3 | DSA Intro & Time Complexity, Functions, Practice Problems |
-| Day 4 | *(coming soon)* |
+| Day 4 | Binary Search, Bubble Sort, OOP, Stack, Practice Problems |
 | Day 5 | *(coming soon)* |
 | Day 6 | *(coming soon)* |
 | Day 7 | *(coming soon)* |
@@ -56,6 +56,18 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 
 ---
 
+## Day 4 — Searching, Sorting, OOP & Stack
+
+### Topics
+
+- **Binary Search** (`BinarySearch.py`) — Iterative binary search using left/right/mid pointers; O(logN) time complexity; returns index of target or -1 if not found
+- **Bubble Sort** (`BubbleSort.py`) — Bubble sort with nested loops and adjacent element swapping; O(N²) time complexity; security key problem — finding duplicate digits in a number using dictionary
+- **Object Oriented Programming** (`OOps.py`) — Classes and objects; class attributes; default `__init__` constructor; parameterized constructor; `self` keyword; instance methods; creating multiple objects
+- **Stack** (`Stack.py`) — Stack data structure implemented using a list; operations: `push()`, `pop()`, `display()`, `isEmpty()`, `peek()`, `delete()`; menu-driven stack program; stack with size limit (overflow handling); digit frequency count problem
+- **Practice Problems** (`problems.py`) — Run-length encoding (character frequency in string), employee salary increment based on performance rating, gross salary calculator with HRA (20%) + TA (30%) + DA (45%)
+
+---
+
 ## How to Run
 
 Make sure Python 3 is installed:
@@ -86,6 +98,13 @@ python Day_2/problems.py
 python Day_3/DSA/first.py
 python Day_3/function.py
 python Day_3/Problems.py
+
+# Day 4
+python Day_4/BinarySearch.py
+python Day_4/BubbleSort.py
+python Day_4/OOps.py
+python Day_4/Stack.py
+python Day_4/problems.py
 ```
 
 ---
