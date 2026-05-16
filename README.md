@@ -12,7 +12,7 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 | Day 2 | Strings, Tuples, Dictionaries, Practice Problems |
 | Day 3 | DSA Intro & Time Complexity, Functions, Practice Problems |
 | Day 4 | Binary Search, Bubble Sort, OOP, Stack, Practice Problems |
-| Day 5 | *(coming soon)* |
+| Day 5 | Queue Data Structure, Practice Problems & Tower of Hanoi |
 | Day 6 | *(coming soon)* |
 | Day 7 | *(coming soon)* |
 | Day 8 | *(coming soon)* |
@@ -68,6 +68,15 @@ Notes and practice code from a 10-day Data Structures & Algorithms program using
 
 ---
 
+## Day 5 — Queue, Comprehensions & Tower of Hanoi
+
+### Topics
+
+- **Queue** (`Queue.py`) — Queue data structure using list; FIFO principle; operations: `insert()` (enqueue), `delete()` (dequeue), `display()`, `peek()`, `deleteQueue()`; menu-driven queue program with size limit and overflow handling; comparison of list vs linked list implementation
+- **Practice Problems** (`problems.py`) — Count perfect squares in array (using `math.isqrt` and while loop); mutable vs immutable function arguments; mutable default argument behaviour; fruit frequency counter with dictionary; student marks management system (dictionary of lists); forward and backward string printing with while loop; first differing character between two strings; unique vowels finder; list comprehension (powers of 2); dictionary comprehension (squares); multiple input parsing with `map()`; budget filter using `for-else`; login system with while loop; **Tower of Hanoi** — OOP-based step-by-step simulation with 7 passes moving disks from peg A → C
+
+---
+
 ## How to Run
 
 Make sure Python 3 is installed:
@@ -105,6 +114,10 @@ python Day_4/BubbleSort.py
 python Day_4/OOps.py
 python Day_4/Stack.py
 python Day_4/problems.py
+
+# Day 5
+python Day_5/Queue.py
+python Day_5/problems.py
 ```
 
 ---
